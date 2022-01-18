@@ -14,5 +14,5 @@ function reducer(string, action) {
 
 }
 
-reducer();
+reducer(toUpperCase);
 module.exports = reducer;
