@@ -1,7 +1,7 @@
-const string = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam dolor velit quas soluta dicta sunt nesciunt repellendus quia error minus assumenda, autem animi esse rem suscipit ut quaerat deserunt inventore.';
+const input = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam dolor velit quas soluta dicta sunt nesciunt repellendus quia error minus assumenda, autem animi esse rem suscipit ut quaerat deserunt inventore.';
 const action = 'Choose the action: capitalize, to upper case, to lower case'
-function reducer(string, action) {
-  var string = document.getElementById('string'),
+function reducer(input, action) {
+  var input= document.getElementById('input'),
   if(action="capitalize") {
     return string.toUpperCase;
   } else if(action="to upper case"){
