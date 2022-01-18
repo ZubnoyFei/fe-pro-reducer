@@ -14,5 +14,5 @@ function reducer(string, action) {
 
 }
 
-reducer();
+reducer(string);
 module.exports = reducer;
