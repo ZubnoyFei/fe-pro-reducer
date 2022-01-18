@@ -14,4 +14,8 @@ function reducer(string, action) {
 
 }
 
+string.toUpperCase();
+string.toLowerCase();
 module.exports = reducer;
+
+
