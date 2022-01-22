@@ -3,23 +3,23 @@ const action = 'Choose the action: capitalize, to upper case, to lower case'
 function reducer(input, action) {
   var input= document.getElementById('input'),
   if(action="capitalize") {
-    return input.toUpperCase;
+   console.log(input.toUpperCase);
   } else if(action="to upper case"){
-    return input.toUpperCase;
+   console.log(input.toUpperCase);
   } else if (action="to lower case"){
-    return input.toLowerCase;
+  console.log(input.toLowerCase);
   } else if(action="null") {
     return alert("You didn't choose the action")
   };
 
 }
 
-<<<<<<< HEAD
+
 string.toUpperCase();
 string.toLowerCase();
-=======
+
 reducer(toUpperCase);
->>>>>>> c6867d763a5a2bf57e5cbf6f715f8a71d77af0e6
+
 module.exports = reducer;
 
 
